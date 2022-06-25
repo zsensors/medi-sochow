@@ -14,6 +14,12 @@
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
 
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    
+    
+
 </head>
 <body>
     
@@ -44,6 +50,7 @@
             <a href="#featured">Productos Destacados</a>
             <a href="#arrivals">Nuevos Productos</a>
             <a href="#blogs">blogs</a>
+            <a class="popup-with-move-anim" href="#details-lightbox-1">Contacto</a>
         </nav>
     </div>
 
@@ -51,12 +58,64 @@
 
 <!-- header section ends -->
 
+
+<!-- Start of floating button -->
+
+<div class="floatingButtonWrap">
+    <div class="floatingButtonInner">
+        <a href="#" class="floatingButton">
+            <i class="fa fa-phone icon-default"></i>
+        </a>
+        <ul class="floatingMenu">
+            <li>
+                <a href="tel:5214494379977">Llamar <i class="fa fa-phone"></i></a>
+            </li>
+            <li>
+                <a href="https://api.whatsapp.com/send?phone=5214494379977&text=Hola, Nececito mas informacion!">WhatsApp <i class='fab fa-whatsapp' style='font-size:24px'></i></a>
+            </li>
+            <li>
+                <a href="mailto:jceballos@medisochow.com?subject=Necesito mas información!">Correo <i class="fa fa-envelope"></i></a>
+            </li>
+        
+        </ul>
+    </div>
+</div>
+
+<!-- End of floating button -->
+
+<!-- Details Lightbox 1 -->
+<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+    <div class="container">
+        
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            
+                <div class="image-container">
+                    <img class="img-fluid" src="image/logo.png" width="200px" height="200px" alt="alternative" style="border-radius:1rem;">
+                </div> <!-- end of image-container -->
+            
+            
+                <h3>Gracias Por Tu Preferencia</h3>
+                <hr>
+                <h5>Ponte en contacto</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aut sint fugiat, est, sapiente explicabo quos placeat, aperiam itaque minima et reprehenderit iste mollitia. Excepturi at deleniti quod repellendus sequi.</p>
+                
+                <a style="width: 200px; " class="btn-outline-reg mfp-close as-button" href="tel:5214494379977">Llamar <i class="fa fa-phone" ></i></a>
+                <a style="width: 200px; " class="btn-outline-reg mfp-close as-button" href="https://api.whatsapp.com/send?phone=5214494379977&text=Hola, Nececito mas informacion!">WhatsApp <i class='fab fa-whatsapp' style='font-size:24px'></i></a>
+                <a style="width: 200px; " class="btn-outline-reg mfp-close as-button" href="mailto:jceballos@medisochow.com?subject=Cotización De Servicios">Correo <i class="fa fa-envelope"></i></a>
+                
+            
+       
+    </div> <!-- end of container -->
+</div> <!-- end of lightbox-basic -->
+<!-- end of details lightbox 1 -->
+
 <!-- bottom navbar  -->
 
 <nav class="bottom-navbar">
     <a href="#home" class="fas fa-home"></a>
     <a href="#featured" class="fas fa-list"></a>
     <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#details-lightbox-1" class="fas fa-phone popup-with-move-anim" ></a>
     
 </nav>
 
@@ -621,7 +680,12 @@
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
 <!-- custom js file link  -->
+<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+<script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script><script  src="/js/btn.js"></script>
+<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
 <script src="js/script.js"></script>
-
 </body>
 </html>
